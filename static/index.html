@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title id="pageTitle">AKA Junior | Expert IA & Design Premium</title>
+  <meta name="description" id="pageDescription" content="Expert en Intelligence Artificielle et Design, je propulse votre business avec des solutions web, vidéo et graphiques d'une autorité inégalée.">
+  <link rel="icon" type="image/png" id="favicon" href="monlogo.png">
+  <link rel="shortcut icon" type="image/png" id="shortcutIcon" href="monlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="constants.js"></script>
+</head>
+<body>
+  <!-- Background Blobs -->
+  <div class="background-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Scanning Lights -->
+  <div class="scanning-lights">
+    <div class="grid-pulse-h" style="top: 40px; left: 0; animation-delay: 0s"></div>
+    <div class="grid-pulse-h" style="top: 160px; left: 0; animation-delay: 1.2s"></div>
+    <div class="grid-pulse-h" style="top: 280px; left: 0; animation-delay: 0.5s"></div>
+    <div class="grid-pulse-h" style="top: 400px; left: 0; animation-delay: 1.8s"></div>
+    <div class="grid-pulse-h" style="top: 520px; left: 0; animation-delay: 0.3s"></div>
+    <div class="grid-pulse-h" style="top: 640px; left: 0; animation-delay: 1.5s"></div>
+    <div class="grid-pulse-h" style="top: 760px; left: 0; animation-delay: 0.7s"></div>
+    <div class="grid-pulse-h" style="top: 880px; left: 0; animation-delay: 1.1s"></div>
+    <div class="grid-pulse-v" style="left: 40px; top: 0; animation-delay: 0.8s"></div>
+    <div class="grid-pulse-v" style="left: 200px; top: 0; animation-delay: 0s"></div>
+    <div class="grid-pulse-v" style="left: 360px; top: 0; animation-delay: 1.4s"></div>
+    <div class="grid-pulse-v" style="left: 520px; top: 0; animation-delay: 0.4s"></div>
+    <div class="grid-pulse-v" style="left: 680px; top: 0; animation-delay: 1.9s"></div>
+    <div class="grid-pulse-v" style="left: 840px; top: 0; animation-delay: 0.2s"></div>
+    <div class="grid-pulse-v" style="left: 1000px; top: 0; animation-delay: 1.3s"></div>
+    <div class="grid-pulse-v" style="left: 1160px; top: 0; animation-delay: 0.6s"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-header">
+        <div class="navbar-logo">
+          <img id="navbarLogoImg" src="monlogo.png" alt="AKA Junior Logo" class="logo-img">
+          <span id="navbarLogoText" class="logo-text">akajunior</span>
+        </div>
+        <button class="navbar-toggle" id="navbarToggle">
+          <div class="animated-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </button>
+      </div>
+      <div class="navbar-menu" id="navbarMenu">
+        <div class="navbar-divider"></div>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#formations" class="nav-link">Formations</a>
+        <a href="#expertise" class="nav-link">Expertise</a>
+        <a href="#témoignages" class="nav-link">Témoignages</a>
+        <a href="https://wa.me/2250708105701?text=Bonjour%20AKA%20Junior,%0A%0AJe%20souhaite%20d%C3%A9marrer%20un%20projet%20avec%20vous.%0A%0APouvez-vous%20me%20renseigner%20sur%20vos%20services%20?" target="_blank" class="nav-cta">Démarrer un projet</a>
+      </div>
+    </div>
+    <div class="navbar-overlay" id="navbarOverlay"></div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="junior2.png" alt="AKA Junior Portrait" class="hero-portrait">
+          </div>
+          <div class="hero-text">
+            <div class="hero-tags">
+              <span class="tag">Innovation</span>
+              <span class="tag">IA Générative</span>
+              <span class="tag">Design</span>
+            </div>
+            <h1 class="hero-title">
+              L'IA au service<br>
+              <span class="highlight">du Design Premium</span>
+            </h1>
+            <p class="hero-description">
+              Expert en Intelligence Artificielle et Design, je propulse votre business avec des solutions web, vidéo et graphiques d'une autorité inégalée.
+            </p>
+            <a href="#services" class="hero-cta">Découvrir mes services</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-value" data-target="6">0+</div>
+            <div class="stat-label">Années d'Expérience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" data-target="50">0+</div>
+            <div class="stat-label">Projets</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" data-target="10">0+</div>
+            <div class="stat-label">Élèves Formés</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="à propos" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Qui est AKA Junior ?</span>
+          <h2 class="section-title">
+            L'IA, je ne l'explique pas.<br>
+            <span class="highlight">Je la maîtrise pour vous.</span>
+          </h2>
+          <p class="section-description">
+            Expert multi-disciplinaire avec plus de 6 ans d'expérience, je fusionne la puissance de l'Intelligence Artificielle avec le design premium, le montage vidéo dynamique et le développement web de pointe. Mon approche holistique me permet de transformer des visions complexes en réalités digitales d'autorité. Certifié Google Ads, Meta Blueprint et expert en IA, je ne me contente pas de créer des outils, je bâtis des écosystèmes de croissance pour les marques qui visent l'excellence.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="card">
+            <div class="card-icon">
+              <div class="icon-circle">
+                <div class="icon-dot"></div>
+              </div>
+            </div>
+            <h3 class="card-title">Ingénierie IA & Web</h3>
+            <p class="card-desc">Fusionner l'IA générative et le développement web pour créer des plateformes intelligentes et performantes.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <div class="icon-square">
+                <div class="icon-line"></div>
+              </div>
+            </div>
+            <h3 class="card-title">Direction Artistique</h3>
+            <p class="card-desc">Design graphique premium et montage vidéo cinématique pour une identité visuelle d'autorité.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <div class="icon-border">
+                <div class="icon-bar"></div>
+              </div>
+            </div>
+            <h3 class="card-title">Stratégie & Transmission</h3>
+            <p class="card-desc">Accompagner les marques et former les talents aux outils qui redéfinissent le marché actuel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="services-glow"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Mes Services</span>
+          <h2 class="section-title">Propulsez votre business</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="dev web.png" alt="Création de site web">
+              <div class="service-image-overlay"></div>
+              <div class="service-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Création de site web</h3>
+              <p class="service-desc">Conception de sites vitrines et e-commerce ultra-performants, optimisés pour la conversion et le SEO.</p>
+              <button class="service-btn" onclick="openServiceModal(0)">En savoir plus</button>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="ia.png" alt="Intelligence Artificielle">
+              <div class="service-image-overlay"></div>
+              <div class="service-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Intelligence Artificielle</h3>
+              <p class="service-desc">Intégration d'agents IA et automatisation de workflows pour scaler votre productivité.</p>
+              <button class="service-btn" onclick="openServiceModal(1)">En savoir plus</button>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="ideo.png" alt="Montage Vidéo">
+              <div class="service-image-overlay"></div>
+              <div class="service-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                  <line x1="7" y1="2" x2="7" y2="22"></line>
+                  <line x1="17" y1="2" x2="17" y2="22"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="2" y1="7" x2="7" y2="7"></line>
+                  <line x1="2" y1="17" x2="7" y2="17"></line>
+                  <line x1="17" y1="17" x2="22" y2="17"></line>
+                  <line x1="17" y1="7" x2="22" y2="7"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Montage Vidéo</h3>
+              <p class="service-desc">Montage dynamique et cinématique pour vos réseaux sociaux et publicités IA-augmenté.</p>
+              <button class="service-btn" onclick="openServiceModal(2)">En savoir plus</button>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="design.png" alt="Design Graphique">
+              <div class="service-image-overlay"></div>
+              <div class="service-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="13.5" cy="6.5" r=".5"></circle>
+                  <circle cx="17.5" cy="10.5" r=".5"></circle>
+                  <circle cx="8.5" cy="7.5" r=".5"></circle>
+                  <circle cx="6.5" cy="12.5" r=".5"></circle>
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Design Graphique</h3>
+              <p class="service-desc">Identité visuelle et branding premium pour affirmer votre autorité sur le marché.</p>
+              <button class="service-btn" onclick="openServiceModal(3)">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Des créations</h2>
+        </div>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="videos">Vidéos</button>
+          <button class="filter-btn" data-filter="images">Images</button>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Portfolio items will be generated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Formations Section -->
+    <section id="formations" class="formations">
+      <div class="formations-glow"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Mes Formations</span>
+          <h2 class="section-title">Passez au niveau supérieur</h2>
+        </div>
+        <div class="formations-grid">
+          <div class="formation-card">
+            <div class="formation-image">
+              <img src="100 photo.png" alt="100 Photos Mémorables">
+              <div class="formation-image-overlay"></div>
+              <div class="formation-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="13.5" cy="6.5" r=".5"></circle>
+                  <circle cx="17.5" cy="10.5" r=".5"></circle>
+                  <circle cx="8.5" cy="7.5" r=".5"></circle>
+                  <circle cx="6.5" cy="12.5" r=".5"></circle>
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+                </svg>
+              </div>
+              <div class="formation-badge">66% OFF</div>
+            </div>
+            <div class="formation-content">
+              <h3 class="formation-title">100 Photos Mémorables</h3>
+              <p class="formation-desc">Apprenez à capturer et éditer des photos professionnelles pour vos événements avec votre smartphone.</p>
+              <ul class="formation-features">
+                <li><span class="check-icon">✓</span> Techniques de pose</li>
+                <li><span class="check-icon">✓</span> Éclairage mobile</li>
+                <li><span class="check-icon">✓</span> Retouche Lightroom</li>
+                <li><span class="check-icon">✓</span> Presets inclus</li>
+              </ul>
+              <div class="formation-info">
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                  <span>E-learning</span>
+                </div>
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                  <span>WhatsApp</span>
+                </div>
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                    <path d="M8.5 8.5v.01"></path>
+                    <path d="M16 15.5v.01"></path>
+                    <path d="M12 12v.01"></path>
+                  </svg>
+                  <span>Illimité</span>
+                </div>
+              </div>
+              <a href="https://akajunior.mychariow.shop/prompt-aniversaire" target="_blank" class="formation-cta">Découvrir la formation</a>
+            </div>
+          </div>
+          <div class="formation-card">
+            <div class="formation-image">
+              <img src="gemini.png" alt="Génération Vidéo IA">
+              <div class="formation-image-overlay"></div>
+              <div class="formation-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                  <line x1="7" y1="2" x2="7" y2="22"></line>
+                  <line x1="17" y1="2" x2="17" y2="22"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="2" y1="7" x2="7" y2="7"></line>
+                  <line x1="2" y1="17" x2="7" y2="17"></line>
+                  <line x1="17" y1="17" x2="22" y2="17"></line>
+                  <line x1="17" y1="7" x2="22" y2="7"></line>
+                </svg>
+              </div>
+              <div class="formation-badge">50% OFF</div>
+            </div>
+            <div class="formation-content">
+              <h3 class="formation-title">Génération Vidéo IA</h3>
+              <p class="formation-desc">Maîtrisez les outils de pointe comme VEO 3 et Gemini Pro pour créer des vidéos cinématiques.</p>
+              <ul class="formation-features">
+                <li><span class="check-icon">✓</span> VEO 3 Mastery</li>
+                <li><span class="check-icon">✓</span> Gemini Pro Prompting</li>
+                <li><span class="check-icon">✓</span> Montage IA</li>
+                <li><span class="check-icon">✓</span> Sound Design</li>
+              </ul>
+              <div class="formation-info">
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                  <span>E-learning</span>
+                </div>
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                  <span>WhatsApp</span>
+                </div>
+                <div class="info-item">
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                    <path d="M8.5 8.5v.01"></path>
+                    <path d="M16 15.5v.01"></path>
+                    <path d="M12 12v.01"></path>
+                  </svg>
+                  <span>Illimité</span>
+                </div>
+              </div>
+              <a href="https://akajunior.mychariow.shop/formationveo3" target="_blank" class="formation-cta">Découvrir la formation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">10+ Certifications</span>
+          <h2 class="section-title">Une expertise <span class="highlight">validée et reconnue</span></h2>
+        </div>
+        <div class="expertise-content">
+          <div class="expertise-stats">
+            <div class="expertise-stat">
+              <div class="stat-value" data-target="6">0+</div>
+              <div class="stat-label">Années d'expérience</div>
+            </div>
+            <div class="expertise-stat">
+              <div class="stat-value" data-target="10">0+</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="expertise-stat">
+              <div class="stat-value" data-target="20">0+</div>
+              <div class="stat-label">Personnes formées</div>
+            </div>
+            <div class="expertise-stat">
+              <div class="stat-value" data-target="2">0</div>
+              <div class="stat-label">Formations au catalogue</div>
+            </div>
+          </div>
+          <div class="expertise-logos">
+            <div class="expertise-logo"><span class="logo-text">G</span><span class="logo-name">Google</span></div>
+            <div class="expertise-logo"><span class="logo-text">Û</span><span class="logo-name">Udemy</span></div>
+            <div class="expertise-logo"><span class="logo-text">✦</span><span class="logo-name">Gemini</span></div>
+            <div class="expertise-logo"><span class="logo-text">H</span><span class="logo-name">HubSpot</span></div>
+            <div class="expertise-logo"><span class="logo-text">M</span><span class="logo-name">Microsoft</span></div>
+            <div class="expertise-logo"><span class="logo-text">C</span><span class="logo-name">ChatGPT</span></div>
+            <div class="expertise-logo"><span class="logo-text">AI</span><span class="logo-name">Claude AI</span></div>
+            <div class="expertise-logo"><span class="logo-text">f</span><span class="logo-name">Facebook</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="certifications-marquee">
+        <div class="marquee-content">
+          <span>Google Ads</span>
+          <span class="marquee-dot"></span>
+          <span>Google Analytics</span>
+          <span class="marquee-dot"></span>
+          <span>Meta Blueprint</span>
+          <span class="marquee-dot"></span>
+          <span>HubSpot Design</span>
+          <span class="marquee-dot"></span>
+          <span>IA Specialist</span>
+          <span class="marquee-dot"></span>
+          <span>UI/UX Master</span>
+          <span class="marquee-dot"></span>
+          <span>Google Ads</span>
+          <span class="marquee-dot"></span>
+          <span>Google Analytics</span>
+          <span class="marquee-dot"></span>
+          <span>Meta Blueprint</span>
+          <span class="marquee-dot"></span>
+          <span>HubSpot Design</span>
+          <span class="marquee-dot"></span>
+          <span>IA Specialist</span>
+          <span class="marquee-dot"></span>
+          <span>UI/UX Master</span>
+          <span class="marquee-dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="faq-grid"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Vos questions, mes réponses</span>
+          <h2 class="section-title">Tout ce que vous devez <br><span class="highlight">savoir</span></h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Quel est le niveau requis pour suivre vos formations ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Nos formations sont conçues pour être accessibles à tous, du débutant complet à l'expert souhaitant se perfectionner sur les derniers outils d'IA.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Les formations sont-elles en direct ou en autonomie ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Vous avez accès à une plateforme de cours en ligne disponible 24h/24 pour apprendre à votre rythme, complétée par des sessions de coaching mensuelles.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Comment fonctionne la communauté WhatsApp privée ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Dès votre inscription, vous recevez un lien pour rejoindre notre groupe exclusif où vous pouvez poser vos questions et échanger avec d'autres passionnés.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Combien de temps ai-je accès à la formation ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              L'accès est illimité et à vie. Vous bénéficiez également de toutes les mises à jour futures gratuitement.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Les formations sont-elles mises à jour ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Oui, le monde de l'IA évolue vite. Nous mettons à jour nos contenus dès qu'une nouvelle technologie majeure (comme une nouvelle version de Midjourney ou ChatGPT) sort.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Vais-je vraiment pouvoir créer des choses concrètes sans compétences techniques ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Absolument. Notre méthode se concentre sur l'utilisation d'outils no-code et d'IA qui ne demandent aucune ligne de code pour obtenir des résultats professionnels.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="témoignages" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Ils ont transformé leur approche</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-star-bg">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="testimonial-text">"L'expertise d'AKA Junior en IA et Design a littéralement transformé notre image de marque. Son approche est futuriste et ultra-efficace."</p>
+              <div class="testimonial-author">
+                <div class="author-name">Sarah L.</div>
+                <div class="author-role">CEO @ TechFlow</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-star-bg">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="testimonial-text">"La formation Masterclass IA est une révélation. J'ai appris à automatiser tout mon workflow de création en quelques jours."</p>
+              <div class="testimonial-author">
+                <div class="author-name">Marc D.</div>
+                <div class="author-role">Freelance Designer</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-star-bg">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <p class="testimonial-text">"Une expertise rare. Le mélange entre design premium et outils IA est exactement ce dont le marché a besoin."</p>
+              <div class="testimonial-author">
+                <div class="author-name">Julie V.</div>
+                <div class="author-role">Product Manager</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-glow"></div>
+      <div class="contact-grid"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Travaillons ensemble</span>
+          <h2 class="section-title">Une question ? <span class="highlight">Parlons-en.</span></h2>
+          <p class="section-description">Formation ou Service. Je réponds à chaque message personnellement.</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-form-card">
+            <div class="card-hover-bg"></div>
+            <form id="contactForm" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Nom</label>
+                  <input type="text" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" name="email" placeholder="votre@email.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea name="message" rows="6" placeholder="Décrivez votre projet ou posez votre question..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <svg class="submit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+          <div class="contact-info-grid">
+            <div class="contact-info-card">
+              <div class="card-hover-bg"></div>
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <h3>Email</h3>
+              <p>akaassafouajoseph@gmail.com</p>
+            </div>
+            <div class="contact-info-card">
+              <div class="card-hover-bg"></div>
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3>WhatsApp</h3>
+              <p>Discutons sur WhatsApp</p>
+              <a href="https://wa.me/2250708105701" target="_blank" class="contact-btn">Envoyer un message</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="back-to-top" id="backToTop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="12" y1="19" x2="12" y2="5"></line>
+          <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+      </button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="monlogo.png" alt="AKA Junior Logo">
+            <span>AKA JUNIOR</span>
+          </div>
+          <p>L'autorité du design premium et de l'IA générative. Expert Web, Vidéo et Design.</p>
+        </div>
+        <div class="footer-socials">
+          <a href="#" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+          <a href="#" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="#" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="footer-copyright">
+          © 2026 AKA Junior. Tous droits réservés.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Service Modal -->
+  <div class="modal" id="serviceModal">
+    <div class="modal-overlay" onclick="closeServiceModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeServiceModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modalIcon"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <div id="modalFeatures"></div>
+      <button class="modal-cta" onclick="contactForService()">Démarrer un projet</button>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal -->
+  <div class="modal" id="portfolioModal">
+    <div class="modal-overlay" onclick="closePortfolioModal()"></div>
+    <div class="modal-content portfolio-modal-content">
+      <button class="modal-close" onclick="closePortfolioModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="portfolioModalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
