@@ -16,7 +16,7 @@ const SITE_CONFIG = {
   
   // WhatsApp (pour le contact)
   whatsappNumber: "0594786379",
-  whatsappNumber: "0708105701",
+  ,
   
   // Copyright
   copyright: "© 2026 AKA Junior. Tous droits réservés."
