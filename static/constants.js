@@ -65,8 +65,8 @@ const HERO_CONFIG = {
   },
   stats: [
     { value: 6, label: "Années d'Expérience" },
-    { value: 50, label: "Projets" },
-    { value: 10, label: "Élèves Formés" }
+    { value: 80, label: "Projets" },
+    { value: 20, label: "Élèves Formés" }
   ]
 };
 
@@ -322,7 +322,7 @@ const EXPERTISE_CONFIG = {
   },
   stats: [
     { value: 6, label: "Années d'expérience" },
-    { value: 10, label: "Certifications" },
+    { value: 20, label: "Certifications" },
     { value: 20, label: "Personnes formées" },
     { value: 2, label: "Formations au catalogue" }
   ],
