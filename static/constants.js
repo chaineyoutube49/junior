@@ -15,7 +15,7 @@ const SITE_CONFIG = {
   favicon: "monlogo.png",
   
   // WhatsApp (pour le contact)
-  whatsappNumber: "2250708105701",
+  whatsappNumber: "0594786319",
   
   // Copyright
   copyright: "© 2026 AKA Junior. Tous droits réservés."
@@ -39,7 +39,7 @@ const NAVBAR_CONFIG = {
   ],
   ctaButton: {
     text: "Démarrer un projet",
-    href: "https://wa.me/2250708105701?text=Bonjour%20AKA%20Junior,%0A%0AJe%20souhaite%20d%C3%A9marrer%20un%20projet%20avec%20vous.%0A%0APouvez-vous%20me%20renseigner%20sur%20vos%20services%20?"
+    href: "https://wa.me/2250594786319?text=Bonjour%20AKA%20Junior,%0A%0AJe%20souhaite%20d%C3%A9marrer%20un%20projet%20avec%20vous.%0A%0APouvez-vous%20me%20renseigner%20sur%20vos%20services%20?"
   }
 };
 
@@ -64,8 +64,8 @@ const HERO_CONFIG = {
   },
   stats: [
     { value: 6, label: "Années d'Expérience" },
-    { value: 50, label: "Projets" },
-    { value: 10, label: "Élèves Formés" }
+    { value: 80, label: "Projets" },
+    { value: 20, label: "Élèves Formés" }
   ]
 };
 
@@ -321,7 +321,7 @@ const EXPERTISE_CONFIG = {
   },
   stats: [
     { value: 6, label: "Années d'expérience" },
-    { value: 10, label: "Certifications" },
+    { value: 20, label: "Certifications" },
     { value: 20, label: "Personnes formées" },
     { value: 2, label: "Formations au catalogue" }
   ],
@@ -439,7 +439,7 @@ const CONTACT_CONFIG = {
       value: "Discutons sur WhatsApp",
       button: {
         text: "Envoyer un message",
-        href: "https://wa.me/2250708105701"
+        href: "https://wa.me/2250594786319"
       }
     }
   ]

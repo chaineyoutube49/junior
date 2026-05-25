@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: akajunior-site
+    env: static
+    buildCommand: echo "No build needed"
+    staticPublishPath: ./static
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

@@ -803,7 +803,7 @@ function closeServiceModal() {
 
 function contactForService() {
   const whatsappMessage = `Bonjour AKA Junior,\n\nJe suis intéressé(e) par votre service : ${currentService.title}\n\nJe souhaite démarrer un projet avec vous. Pouvez-vous me renseigner sur ce service ?`;
-  const whatsappUrl = `https://wa.me/2250708105701?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/2250594786319?text=${encodeURIComponent(whatsappMessage)}`;
   window.open(whatsappUrl, '_blank');
   closeServiceModal();
 }
@@ -850,7 +850,7 @@ contactForm.addEventListener('submit', (e) => {
   const message = formData.get('message');
   
   const whatsappMessage = `*Nouveau message de contact*\n\n*Nom:* ${name}\n*Email:* ${email}\n*Message:* ${message}`;
-  const whatsappUrl = `https://wa.me/2250708105701?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/2250594786319?text=${encodeURIComponent(whatsappMessage)}`;
   
   window.open(whatsappUrl, '_blank');
   
