@@ -262,6 +262,13 @@ const PORTFOLIO_CONFIG = {
       title: 'Boisson Bock', 
       img: 'bierre.png',
       gallery: ['bierre1.png', 'bierre2.png']
+    },
+    { 
+      id: 13, 
+    type: 'videos', 
+      title: 'Vidéos IA ', 
+      img: 'pub coca.mp4',
+      gallery: []
     }
   ]
 };
@@ -375,27 +382,27 @@ const FAQ_CONFIG = {
 // TESTIMONIALS SECTION
 // ============================================
 const TESTIMONIALS_CONFIG = {
-  title: "Ils ont transformé leur approche",
+  title: "Ce qu'ils en disent",
   items: [
     {
-      text: "L'expertise d'AKA Junior en IA et Design a littéralement transformé notre image de marque. Son approche est futuriste et ultra-efficace.",
+      text: "J'ai suivi la formation sur VEO 3 et Gemini Pro. Au début, j'étais sceptique sur l'efficacité de ces outils pour mon business de création de contenu. Après 3 semaines, j'ai réduit mon temps de production de 60% tout en améliorant la qualité. Les prompts fournis sont vraiment pratiques et la communauté WhatsApp m'a aidé à débloquer plusieurs situations.",
       author: {
-        name: "Sarah L.",
-        role: "CEO @ TechFlow"
+        name: "Kouassi Emmanuel",
+        role: "Créateur de contenu, Abidjan"
       }
     },
     {
-      text: "La formation Masterclass IA est une révélation. J'ai appris à automatiser tout mon workflow de création en quelques jours.",
+      text: "AKA Junior a créé notre site vitrine et notre identité visuelle complète. Ce qui m'a impressionné, c'est qu'il a pris le temps de comprendre notre secteur avant de proposer quoi que ce soit. Le résultat est un design qui reflète vraiment notre marque, pas un template générique. Les délais ont été respectés et le support après livraison est excellent.",
       author: {
-        name: "Marc D.",
-        role: "Freelance Designer"
+        name: "Adjoua Mariam",
+        role: "Fondatrice, EcoBoutique Côte d'Ivoire"
       }
     },
     {
-      text: "Une expertise rare. Le mélange entre design premium et outils IA est exactement ce dont le marché a besoin.",
+      text: "Je cherchais quelqu'un pour former mon équipe aux outils d'IA. AKA Junior a adapté la formation à nos besoins spécifiques en marketing digital. Mes collaborateurs sont maintenant autonomes sur Midjourney, ChatGPT et les outils d'automatisation. Le ROI de cette formation est déjà visible après 2 mois.",
       author: {
-        name: "Julie V.",
-        role: "Product Manager"
+        name: "Yao Serge",
+        role: "Directeur Marketing, Agence Com'Abidjan"
       }
     }
   ]

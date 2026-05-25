@@ -1,4 +1,36 @@
 // ============================================
+// EMPÊCHER LE TÉLÉCHARGEMENT DES IMAGES ET VIDÉOS
+// ============================================
+
+// Désactiver le clic droit sur les images et vidéos
+document.addEventListener('contextmenu', function(e) {
+  if (e.target.tagName === 'IMG' || e.target.tagName === 'VIDEO') {
+    e.preventDefault();
+    return false;
+  }
+});
+
+// Désactiver le drag-and-drop des images et vidéos
+document.addEventListener('dragstart', function(e) {
+  if (e.target.tagName === 'IMG' || e.target.tagName === 'VIDEO') {
+    e.preventDefault();
+    return false;
+  }
+});
+
+// Désactiver les raccourcis clavier pour enregistrer (Ctrl+S, Ctrl+U, F12)
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey && (e.key === 's' || e.key === 'u' || e.key === 'S' || e.key === 'U')) {
+    e.preventDefault();
+    return false;
+  }
+  if (e.key === 'F12') {
+    e.preventDefault();
+    return false;
+  }
+});
+
+// ============================================
 // LOAD CONSTANTS AND APPLY TO HTML
 // ============================================
 

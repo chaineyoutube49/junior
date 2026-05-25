@@ -134,7 +134,7 @@ OU éditez le tableau `servicesData` dans `script.js` (méthode manuelle)
 
 ## 🎨 Design conservé
 
-- Couleur principale : `#FF0000` (rouge)
+- Couleur principale : `#FF6B00` (orange)
 - Fond : `#0D0D0D` (noir)
 - Cartes : `#1A1A1A` (gris foncé)
 - Police display : Montserrat
