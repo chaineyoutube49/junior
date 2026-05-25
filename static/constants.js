@@ -18,7 +18,7 @@ const SITE_CONFIG = {
   whatsappNumber: "2250708105701",
   
   // Copyright
-  copyright: "© 2020 AKA Junior. Tous droits réservés."
+  copyright: "© 2026 AKA Junior. Tous droits réservés."
 };
 
 // ============================================
@@ -57,7 +57,7 @@ const HERO_CONFIG = {
     line2: "du Design Premium",
     highlight: "du Design Premium"
   },
-  description: "Expert en Intelligence Artificielle et Design, je propulse votre business avec des solutions web, vidéo et graphiques d'une autorité inégalée.",
+  description: " Je suis <strong style='color: white;'>AKA Junior</strong> , spécialiste en marketing digital, intelligence artificielle générative et design premium. J’accompagne les entreprises et les marques dans la création d’expériences web, visuelles et stratégiques capables de renforcer leur image et accélérer leur croissance.",
   ctaButton: {
     text: "Découvrir mes services",
     href: "#services"
@@ -79,7 +79,7 @@ const ABOUT_CONFIG = {
     line2: "Je la maîtrise pour vous.",
     highlight: "Je la maîtrise pour vous."
   },
-  description: "Expert multi-disciplinaire avec plus de 6 ans d'expérience, je fusionne la puissance de l'Intelligence Artificielle avec le design premium, le montage vidéo dynamique et le développement web de pointe. Mon approche holistique me permet de transformer des visions complexes en réalités digitales d'autorité. Certifié Google Ads, Meta Blueprint et expert en IA, je ne me contente pas de créer des outils, je bâtis des écosystèmes de croissance pour les marques qui visent l'excellence.",
+  description: "Avec plus de 6 ans d’expérience, je combine intelligence artificielle générative, design premium, développement web et stratégie digitale pour créer des expériences capables de transformer l’image et la croissance des marques. Certifié Google Ads et Meta Blueprint, j’accompagne entreprises, créateurs et équipes dans l’utilisation concrète de l’IA pour produire plus vite, mieux et avec plus d’impact.",
   cards: [
     {
       title: "Ingénierie IA & Web",
@@ -446,20 +446,84 @@ const CONTACT_CONFIG = {
 };
 
 // ============================================
+// WHY WORK WITH ME SECTION
+// ============================================
+const WHY_WORK_CONFIG = {
+  badge: "Pourquoi travailler avec AKA Junior ?",
+  subtitle: "L’alliance entre IA, design et performance",
+  cards: [
+    {
+      title: "Des solutions pensées pour renforcer votre image, accélérer votre croissance et imposer votre présence digitale.",
+      description: "Créer des solutions pensées pour la visibilité, la croissance et la conversion.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="2" y1="12" x2="22" y2="12"></line>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+      </svg>`
+    },
+    {
+      title: "Fusion entre IA, design et marketing digital",
+      description: "Une combinaison moderne entre créativité, technologie et performance.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+      </svg>`
+    },
+    {
+      title: "Accompagnement personnalisé",
+      description: "Chaque projet est conçu selon les objectifs et l'identité du client.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>`
+    },
+    {
+      title: "Production rapide et moderne",
+      description: "Utilisation des meilleurs outils actuels pour produire efficacement avec une qualité premium.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
+      </svg>`
+    },
+    {
+      title: "Vision premium et créative",
+      description: "Des expériences digitales modernes qui renforcent l'image et l'autorité des marques.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+        <path d="M2 2l7.586 7.586"></path>
+        <circle cx="11" cy="11" r="2"></circle>
+      </svg>`
+    },
+    {
+      title: "Expertise certifiée et continuellement mise à jour",
+      description: "Des compétences validées et adaptées aux évolutions constantes du digital et de l'intelligence artificielle.",
+      icon: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>`
+    }
+  ]
+};
+
+// ============================================
 // FOOTER
 // ============================================
 const FOOTER_CONFIG = {
   logo: {
     image: "monlogo.png",
     alt: "AKA Junior Logo",
-    text: "AKA JUNIOR"
+    text: "AKA Junior"
   },
   description: "L'autorité du design premium et de l'IA générative. Expert Web, Vidéo et Design.",
   socials: [
-    { href: "#", icon: "instagram" },
-    { href: "#", icon: "twitter" },
+    { href: "https://www.instagram.com/juniorsurintagram?igsh=MXdmYnJ3NjIzZW93Zg%3D%3D&utm_source=qr", icon: "instagram" },
+    { href: "https://www.facebook.com/share/18fR1xHqMV/?mibextid=wwXIfr", icon: "facebook" },
     { href: "#", icon: "linkedin" },
     { href: "#", icon: "github" }
   ],
   copyright: "© 2026 AKA Junior. Tous droits réservés."
 };
+
+
+
+

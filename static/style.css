@@ -3270,3 +3270,198 @@ section {
     font-size: 1.25rem;
   }
 }
+
+/* ============================================
+   WHY WORK WITH ME SECTION
+   ============================================ */
+
+.why-work {
+  padding: 8rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .why-work {
+    padding: 5rem 1rem;
+  }
+}
+
+.why-work-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 107, 0, 0.05);
+  filter: blur(150px);
+  pointer-events: none;
+}
+
+.why-work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .why-work-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .why-work-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .why-work-grid {
+    gap: 1.5rem;
+  }
+}
+
+.why-work-card {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .why-work-card {
+    padding: 2rem;
+    border-radius: 1.5rem;
+  }
+}
+
+.why-work-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 107, 0, 0.1) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.why-work-card:hover::before {
+  opacity: 1;
+}
+
+.why-work-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 107, 0, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(255, 107, 0, 0.2), 0 0 0 1px rgba(255, 107, 0, 0.1);
+}
+
+.why-work-card-icon {
+  width: 4rem;
+  height: 4rem;
+  background: rgba(255, 107, 0, 0.15);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  border: 1px solid rgba(255, 107, 0, 0.2);
+  transition: all 0.5s;
+}
+
+@media (max-width: 640px) {
+  .why-work-card-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.why-work-card-icon::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: linear-gradient(135deg, var(--color-brand), transparent);
+  border-radius: 1.25rem;
+  opacity: 0;
+  filter: blur(8px);
+  transition: opacity 0.5s;
+  z-index: -1;
+}
+
+.why-work-card:hover .why-work-card-icon::after {
+  opacity: 0.5;
+}
+
+.why-work-card:hover .why-work-card-icon {
+  background: rgba(255, 107, 0, 0.25);
+  border-color: rgba(255, 107, 0, 0.4);
+  transform: scale(1.05);
+}
+
+.why-work-card-icon .icon-svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-brand);
+  filter: drop-shadow(0 0 8px rgba(255, 107, 0, 0.5));
+  transition: all 0.5s;
+}
+
+@media (max-width: 640px) {
+  .why-work-card-icon .icon-svg {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+.why-work-card:hover .why-work-card-icon .icon-svg {
+  filter: drop-shadow(0 0 12px rgba(255, 107, 0, 0.8));
+  transform: scale(1.1);
+}
+
+.why-work-card-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  transition: color 0.5s;
+}
+
+@media (max-width: 640px) {
+  .why-work-card-title {
+    font-size: 1.125rem;
+  }
+}
+
+.why-work-card:hover .why-work-card-title {
+  color: var(--color-brand);
+}
+
+.why-work-card-description {
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.75;
+  transition: color 0.5s;
+}
+
+@media (max-width: 640px) {
+  .why-work-card-description {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+
+.why-work-card:hover .why-work-card-description {
+  color: rgba(255, 255, 255, 0.8);
+}

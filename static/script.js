@@ -82,7 +82,7 @@ function applyConstantsToHTML() {
 
     const heroDescription = document.querySelector('.hero-description');
     if (heroDescription) {
-      heroDescription.textContent = HERO_CONFIG.description;
+      heroDescription.innerHTML = HERO_CONFIG.description;
     }
 
     const heroCta = document.querySelector('.hero-cta');
@@ -314,14 +314,47 @@ function applyConstantsToHTML() {
     const footerLogoText = document.querySelector('.footer-logo span');
     const footerDescription = document.querySelector('.footer-brand p');
     const footerCopyright = document.querySelector('.footer-copyright');
+    const footerSocialLinks = document.querySelectorAll('.footer-socials .social-link');
 
     if (footerLogoImg) {
       footerLogoImg.setAttribute('src', FOOTER_CONFIG.logo.image);
       footerLogoImg.setAttribute('alt', FOOTER_CONFIG.logo.alt);
     }
-    if (footerLogoText) footerLogoText.textContent = FOOTER_CONFIG.logo.text;
+    if (footerLogoText) footerLogoText.innerHTML = FOOTER_CONFIG.logo.text;
     if (footerDescription) footerDescription.textContent = FOOTER_CONFIG.description;
     if (footerCopyright) footerCopyright.textContent = FOOTER_CONFIG.copyright;
+
+    if (footerSocialLinks) {
+      footerSocialLinks.forEach((link, index) => {
+        if (FOOTER_CONFIG.socials[index]) {
+          link.setAttribute('href', FOOTER_CONFIG.socials[index].href);
+        }
+      });
+    }
+  }
+
+  // Why Work With Me
+  if (typeof WHY_WORK_CONFIG !== 'undefined') {
+    const whyWorkBadge = document.querySelector('.why-work .section-badge');
+    const whyWorkTitle = document.querySelector('.why-work .section-title');
+    const whyWorkDescription = document.querySelector('.why-work .section-description');
+    const whyWorkGrid = document.getElementById('whyWorkGrid');
+
+    if (whyWorkBadge) whyWorkBadge.textContent = WHY_WORK_CONFIG.badge;
+    if (whyWorkTitle) whyWorkTitle.textContent = WHY_WORK_CONFIG.subtitle;
+    if (whyWorkDescription) whyWorkDescription.textContent = "Une approche moderne qui fusionne intelligence artificielle, design premium et stratégie digitale pour créer des résultats concrets.";
+
+    if (whyWorkGrid) {
+      whyWorkGrid.innerHTML = WHY_WORK_CONFIG.cards.map(card => `
+        <div class="why-work-card">
+          <div class="why-work-card-icon">
+            ${card.icon}
+          </div>
+          <h3 class="why-work-card-title">${card.title}</h3>
+          <p class="why-work-card-description">${card.description}</p>
+        </div>
+      `).join('');
+    }
   }
 }
 
