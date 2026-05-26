@@ -239,7 +239,7 @@ const PORTFOLIO_CONFIG = {
       id: 9, 
       type: 'images', 
       title: 'Affiche', 
-      img: 'Affiche.png',
+      img: 'affiche.png',
       gallery: ['Bon Week-end (1).png', 'affiche3.jpg', 'affiche2.jpg']
     },
     { 
